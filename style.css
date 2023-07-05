@@ -1,0 +1,208 @@
+
+ /* SCROOL BAR*/
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #02071A;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 20px;
+    border: 3px solid #7843E6;
+  }
+   /* SCROOL BAR*/
+   
+   
+ * {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #b4b4b4 !important;
+    text-decoration: none !important;
+
+}  
+   
+h3 {
+    font-weight: bold;
+    color: #b4b4b4 !important;
+
+}
+
+h1{
+    color: #03F0F2;
+    text-shadow: 
+             -1px -1px 0px #F206FD, 
+             -1px 1px 0px #F206FD,                    
+              1px -1px 0px #F206FD,                  
+              1px 0px 0px #F206FD;
+
+}
+h4{
+    color: #03F0F2;
+    text-shadow: 
+             -1px -1px 0px #F206FD, 
+             -1px 1px 0px #F206FD,                    
+              1px -1px 0px #F206FD,                  
+              1px 0px 0px #F206FD;
+padding-bottom: 20px;
+
+}
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #02071A;
+}
+
+
+
+
+.texto {
+    text-align: justify;
+   color:rgb(191, 187, 187);
+}
+
+.gamestart {
+    width: 110% !important;
+    max-width: auto !important;
+    margin-top: 40px;
+}
+
+#cards {
+    background-color: #7843E6;
+    height: 180px;
+    margin: 50px 0  115px;
+    color: #00FFFF;
+    border-style: dashed;
+    border-color: #F206FD;
+    border-width: 5px;
+    padding-top: 18px;
+    font-weight: bolder;
+}
+
+.cards{
+    padding-top: 25px;
+}
+
+#cards:hover{
+    box-shadow: 0 8px 10px 3px rgba(0,0,0,0.6);
+    transform: translateY(-22px) scale(1.07) rotateX(1deg);
+    
+}
+
+
+
+/* ANIMAÇÃO BOTAO PROXIMA FASE */
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fases {
+    animation: animate 1.5s linear infinite;
+    color: #F206FD !important;
+    text-shadow: 
+    -1px -1px 0px #00FFFF, 
+    -1px 1px 0px #00FFFF,                    
+     1px -1px 0px #00FFFF,                  
+     1px 0px 0px #00FFFF;
+    margin-top: 200px;
+
+}
+
+.bloco1{
+    background-image: url(assets/imagens/bloco1.jpg);
+    
+}
+
+.bloco2 {
+    height: 700px; 
+    margin-top: 8%;
+    background-image: url(assets/imagens/bloco2.png);
+}
+
+.bloco3{
+
+    margin-top: 8%;
+    background-image: url(assets/imagens/bloco3.png);
+}
+.bloco4{
+
+    margin-top: 8%;
+    background-image: url(assets/imagens/bloco4.png);
+}
+.imagens {
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    width: auto;
+    height: auto;
+
+    
+}
+
+.caixatexto{
+    background-color: #201253;
+    border-radius: 5px;
+    padding: 15px;
+    color: #03F0F2;
+    border-color: #00FFFF !important;
+    border: dashed;
+}
+
+
+#border {
+  text-shadow:  #00FFFF !important;
+}
+
+
+.skills-caixa{
+    background-color: #201253;
+    height: 180px;
+    margin: 150px 0  110px;
+    color: #00FFFF;
+    border-style: dashed;
+    border-color: #00FFFF;
+    border-width: 5px;
+    font-weight: bolder;
+    padding-top: 20px;
+
+}
+
+
+.social{
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.github{
+    background-color: #1F2128;
+    height: auto;
+    padding: 20px 0 20px;
+}
+
+.linkedln { 
+    background-color: #1DA1F2;
+    height: auto;
+    padding: 20px 0 20px;
+}
+
+footer{
+    background-image: url(assets/imagens/footer.png);
+}
+.ico{
+    text-align: end !important;
+}
